@@ -15,6 +15,7 @@ COPYRIGHT 2021 ALL RESERVED. (C) liaoyulei, https://github.com/dualface
 
 ## CHANGELOG
 
+-   2021/03/19: 增加血条显示，增加 NPCFactorySystem
 -   2021/03/10: DEMO 拆分为单独的仓库，并使用 npm 引用 ECS 框架
 
 ~
@@ -38,11 +39,12 @@ COPYRIGHT 2021 ALL RESERVED. (C) liaoyulei, https://github.com/dualface
 -   事件：
     -   `AttackEvent`: 对一组目标发起攻击。
 -   系统：
+    -   `NPCFactorySystem`: 不定期创建新的 NPC。
     -   `MovableSystem`: 处理所有目标的移动。
     -   `InputSystem`: 处理用户的点击事件，如果点击到了 NPC，则创建 `AttackEvent` 事件。
     -   `AttackSystem`: 处理 `AttackEvent` 事件，并从屏幕上移除已经被消灭的目标。
 
-所有源代码在 `demo` 目录中，使用 Cocos Creator 2.4 最新版打开即可。
+所有源代码在 `demo` 目录中，使用 Cocos Creator 3.0 最新版打开即可。
 
 ~
 
