@@ -3,7 +3,7 @@
  */
 
 import { Vec3 } from "cc";
-import { ecsclass, ECSComponent } from "ecs-typescript";
+import { ecsclass, ECSComponent } from "iam-ecs-typescript";
 /**
  * 可移动组件
  */

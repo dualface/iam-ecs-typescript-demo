@@ -3,7 +3,7 @@
  */
 
 import { Rect, view } from "cc";
-import { ecsclass, ECSSystem } from "ecs-typescript";
+import { ecsclass, ECSSystem } from "iam-ecs-typescript";
 import { MovableComponent } from "../components/MovableComponent";
 import { RenderNodeComponent } from "../components/RenderNodeComponent";
 

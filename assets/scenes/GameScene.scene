@@ -155,7 +155,7 @@
     "_priority": -1,
     "_fov": 60,
     "_fovAxis": 0,
-    "_orthoHeight": 626.1254612546126,
+    "_orthoHeight": 621.0886469673405,
     "_near": 1,
     "_far": 4096,
     "_color": {
@@ -582,7 +582,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "npcPrefab": {
+    "NPCPrefab": {
       "__uuid__": "3c704a37-84c3-4627-a0d5-7266205fef3f"
     },
     "_id": "99n6JyEnFM5oas3nHEr+NX"

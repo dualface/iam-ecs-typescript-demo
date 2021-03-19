@@ -3,7 +3,7 @@
  */
 
 import { Node } from "cc";
-import { ecsclass, ECSComponent } from "ecs-typescript";
+import { ecsclass, ECSComponent } from "iam-ecs-typescript";
 
 /**
  * 渲染节点组件

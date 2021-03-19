@@ -2,7 +2,7 @@
  * COPYRIGHT 2021 ALL RESERVED. (C) liaoyulei, https://github.com/dualface
  */
 
-import { ecsclass, ECSEvent } from "ecs-typescript";
+import { ecsclass, ECSEvent } from "iam-ecs-typescript";
 /**
  * 攻击事件
  */

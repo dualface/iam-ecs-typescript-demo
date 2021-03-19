@@ -1,8 +1,8 @@
-## ecs-typescript DEMO 说明
+## iam-ecs-typescript-demo
 
 这个 DEMO 展示了如何使用 ECS 框架。
 
-ECS 框架源代码: [https://github.com/dualface/ecs-typescript](https://github.com/dualface/ecs-typescript)
+ECS 框架源代码: [https://github.com/dualface/iam-ecs-typescript](https://github.com/dualface/iam-ecs-typescript)
 
 QQ 群： 367237484
 

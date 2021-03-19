@@ -2,7 +2,7 @@
  * COPYRIGHT 2021 ALL RESERVED. (C) liaoyulei, https://github.com/dualface
  */
 
-import { ecsclass, ECSSystem } from "ecs-typescript";
+import { ecsclass, ECSSystem } from "iam-ecs-typescript";
 import { HealthComponent } from "../components/HealthComponent";
 import { RenderNodeComponent } from "../components/RenderNodeComponent";
 import { AttackEvent } from "../events/AttackEvent";
@@ -38,8 +38,7 @@ export class AttackSystem extends ECSSystem {
 
         const health = entity.getComponent(HealthComponent);
         // 每次扣除最大健康度的 30%
-        health.hp -= health.maxHP * 0.3;
-        if (health.hp <= 0) {
+        if (health.decreaseHP(health.max * 0.3).isDead()) {
             // 如果健康度归零，则移除实体
             if (entity.hasComponent(RenderNodeComponent)) {
                 // 移除实体前，需要移除对应的渲染节点

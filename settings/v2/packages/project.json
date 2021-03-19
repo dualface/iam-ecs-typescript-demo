@@ -5,5 +5,11 @@
       "name": "default",
       "value": 1
     }
-  ]
+  ],
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  }
 }
