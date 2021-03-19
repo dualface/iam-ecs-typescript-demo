@@ -2,13 +2,19 @@
 
 这个 DEMO 展示了如何使用 ECS 框架。
 
-ECS 框架源代码: [https://github.com/dualface/iam-ecs-typescript](https://github.com/dualface/iam-ecs-typescript)
-
-QQ 群： 367237484
+```
+QQ 群号码： 367237484
+```
 
 ```
 COPYRIGHT 2021 ALL RESERVED. (C) liaoyulei, https://github.com/dualface
 ```
+
+在线 DEMO 展示: [https://liaoyulei.cn/projects/iam-ecs-typescript-demo/](https://liaoyulei.cn/projects/iam-ecs-typescript-demo/)
+
+DEMO 源代码: [https://github.com/dualface/iam-ecs-typescript-demo](https://github.com/dualface/iam-ecs-typescript-demo)
+
+ECS 框架源代码: [https://github.com/dualface/iam-ecs-typescript](https://github.com/dualface/iam-ecs-typescript)
 
 ~
 
