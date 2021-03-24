@@ -70,7 +70,7 @@ export class MovableSystem extends ECSSystem {
 
             // 如果该组件所属的实体拥有 RenderNodeComponent 组件
             // 则同步更新 Node 的位置
-            const entity = this.ecs.entities.get(movable.entityID);
+            const entity = this.ecs.entities.get(movable.entityId);
             if (entity.hasComponent(RenderNodeComponent)) {
                 const render = entity.getComponent(RenderNodeComponent);
                 render.node.setPosition(movable.position);

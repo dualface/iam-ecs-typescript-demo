@@ -13,7 +13,7 @@ export class AttackEvent extends ECSEvent {
      *
      * @param targets 攻击目标的实体 ID
      */
-    constructor(readonly targets: Array<string>) {
+    constructor(readonly targets: string[]) {
         super();
     }
 }

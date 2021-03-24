@@ -4,6 +4,6 @@
     "uuid": "b990f954-cf61-41b5-b24d-843e5710ec1d",
     "version": "3.0.0",
     "dependencies": {
-        "iam-ecs-typescript": "^1.1.4"
+        "iam-ecs-typescript": "^1.1.5"
     }
 }

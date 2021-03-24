@@ -53,12 +53,12 @@ export class InputSystem extends ECSSystem {
 
         // 遍历所有 Movable 组件
         // 找出所有符合距离要求的实体，将其 ID 添加到数组中
-        const targets = new Array<string>();
+        const targets: string[] = [];
         const movables = this.ecs.components.all(MovableComponent);
         movables.forEach((movable) => {
             // 如果点击位置和目标距离小于一定值，视为点击到了目标
             if (Vec2.distance(position, movable.position) < 40) {
-                targets.push(movable.entityID);
+                targets.push(movable.entityId);
             }
         });
 
