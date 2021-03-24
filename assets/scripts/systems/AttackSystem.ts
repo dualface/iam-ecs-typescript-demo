@@ -20,7 +20,7 @@ export class AttackSystem extends ECSSystem {
     update(dt: number): void {
         const attackEvents = this.ecs.events.fetch(AttackEvent);
         attackEvents.forEach((event) => {
-            event.targets.forEach((entityID) => this.attackTarget(entityID));
+            event.targets.forEach((entityId) => this.attackTarget(entityId));
         });
     }
 
@@ -29,11 +29,11 @@ export class AttackSystem extends ECSSystem {
     /**
      * 攻击目标
      *
-     * @param entityID
+     * @param entityId
      */
-    private attackTarget(entityID: string): void {
+    private attackTarget(entityId: string): void {
         // 如果目标实体不包含健康度组件，则不做处理
-        const entity = this.ecs.entities.get(entityID);
+        const entity = this.ecs.entities.get(entityId);
         if (!entity.hasComponent(HealthComponent)) return;
 
         const health = entity.getComponent(HealthComponent);
