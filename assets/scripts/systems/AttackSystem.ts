@@ -2,10 +2,12 @@
  * COPYRIGHT 2021 ALL RESERVED. (C) liaoyulei, https://github.com/dualface
  */
 
-import { ecsclass, ECSSystem } from "iam-ecs-typescript";
+// import { ecsclass, ECSSystem } from "iam-ecs-typescript";
 import { HealthComponent } from "../components/HealthComponent";
 import { RenderNodeComponent } from "../components/RenderNodeComponent";
 import { AttackEvent } from "../events/AttackEvent";
+import { ECSSystem } from "../lib/ECSSystem";
+import { ecsclass } from "../lib/__private";
 
 /**
  * 处理攻击事件的系统

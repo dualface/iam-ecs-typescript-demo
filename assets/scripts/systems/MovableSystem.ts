@@ -3,9 +3,11 @@
  */
 
 import { Rect, view } from "cc";
-import { ecsclass, ECSSystem } from "iam-ecs-typescript";
+// import { ecsclass, ECSSystem } from "iam-ecs-typescript";
 import { MovableComponent } from "../components/MovableComponent";
 import { RenderNodeComponent } from "../components/RenderNodeComponent";
+import { ECSSystem } from "../lib/ECSSystem";
+import { ecsclass } from "../lib/__private";
 
 /**
  * 处理所有可以移动的组件

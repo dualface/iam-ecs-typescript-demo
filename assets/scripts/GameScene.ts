@@ -3,7 +3,8 @@
  */
 
 import { Component, Prefab, _decorator } from "cc";
-import { createECSEnv } from "iam-ecs-typescript";
+import { ECSImpl } from "./lib/impl/ECSImpl";
+// import { createECSEnv } from "iam-ecs-typescript";
 import { AttackSystem } from "./systems/AttackSystem";
 import { InputSystem } from "./systems/InputSystem";
 import { MovableSystem } from "./systems/MovableSystem";
@@ -19,7 +20,8 @@ export default class GameScene extends Component {
     /**
      * 创建 ECS
      */
-    private ecs = createECSEnv();
+    // private ecs = createECSEnv();
+    private ecs = new ECSImpl();
 
     onLoad() {
         if (!this.NPCPrefab) {
