@@ -1,9 +1,12 @@
 import { instantiate, Node, Prefab, Vec3 } from "cc";
-import { ecsclass, ECSEntity, ECSSystem } from "iam-ecs-typescript";
+// import { ecsclass, ECSEntity, ECSSystem } from "iam-ecs-typescript";
 import { HealthComponent } from "../components/HealthComponent";
 import { MovableComponent } from "../components/MovableComponent";
 import { NPCComponent } from "../components/NPCComponent";
 import { RenderNodeComponent } from "../components/RenderNodeComponent";
+import { ECSEntity } from "../lib/ECSEntity";
+import { ECSSystem } from "../lib/ECSSystem";
+import { ecsclass } from "../lib/__private";
 
 /**
  * 可以移动的方向
